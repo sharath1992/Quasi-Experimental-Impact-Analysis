@@ -6,7 +6,7 @@ Measuring the revenue impact of a single-market marketing campaign, using Bayesi
 
 ## The business question
 
-BrewwwwHaven operates stores in 13 US metro markets. From **2025-09-08 to 2025-10-19** it ran a 6-week TV, digital and out-of-home campaign in **Denver only** ($200,000 media spend). There was no randomized holdout. Leadership wants to know:
+BrewwwwHaven operates stores in 13 US metro markets. From **2025-09-08 to 2025-10-19** it ran a 6-week TV, digital and out-of-home campaign in Denver only ($200,000 media spend). There was no randomized holdout. Leadership wants to know:
 
 1. How much additional revenue did the campaign cause in Denver?
 2. Did it pay back its cost? (58% gross margin on incremental sales, so break-even is **$344,828** of incremental revenue.
@@ -21,14 +21,16 @@ The break-even point rests on two inputs that come from the project setup, not f
 | Media spend | $200,000 | Stated campaign cost |
 | Gross margin on incremental sales | 58% | Simplifying assumption (not estimated from the data) |
 
-**Break-even = spend ÷ margin = $200,000 ÷ 0.58 = $344,828 of incremental revenue.** Each extra dollar of revenue keeps only 58 cents as gross profit, so the campaign needs about $344,828 of extra revenue to earn back $200,000. Net profit throughout this README is calculated as incremental revenue × 58% − $200,000.
+Break-even = spend ÷ margin = $200,000 ÷ 0.58 = $344,828 of incremental revenue.
+
+Each extra dollar of revenue keeps only 58 cents as gross profit, so the campaign needs about $344,828 of extra revenue to earn back $200,000. Net profit throughout this README is calculated as incremental revenue × 58% − $200,000.
 
 - **Sensitivity:** the break-even moves with the margin. At a 50% margin it would be $400,000, and at 65% it would be $307,692.
 - **Scope:** only media spend is counted as cost. Creative production, staff time and other campaign costs are not included.
 
 ## Why not just compare before and after?
 
-Denver's revenue rose **15.1%** across the campaign window versus the six weeks before it. But the other markets, which saw no campaign, rose **5.0%** over the same weeks because of seasonality, weather and a chain-wide promotion that overlapped the last two weeks. A raw before/after comparison credits the campaign with changes that happened everywhere. The goal is to estimate what Denver would have done *without* the campaign (the counterfactual) and compare it with what actually happened.
+Denver's revenue rose **15.1%** across the campaign window versus the six weeks before it. But the other markets, which saw no campaign, rose **5.0%** over the same weeks because of seasonality, weather and a chain-wide promotion that overlapped the last two weeks. A raw before/after comparison credits the campaign with changes that happened everywhere. The goal is to estimate what Denver would have done without the campaign (the counterfactual) and compare it with what actually happened.
 
 ## Data
 
@@ -69,7 +71,7 @@ Three control sets were used: **Primary** (SLC, MCI, MSP, CMH, BNA, CLT, SMF), *
 
 ## Results
 
-The campaign **very likely raised revenue** (about +8% to +12% in the campaign window) and **probably paid for itself, but the margin is thin**. Estimates of incremental revenue run from about $340k to $490k against a $344,828 break-even.
+The campaign very likely raised revenue (about +8% to +12% in the campaign window) and probably paid for itself, but the margin is thin. Estimates of incremental revenue run from about $340k to $490k against a $344,828 break-even.
 
 ### By method (campaign window, Primary controls unless noted)
 
@@ -111,7 +113,7 @@ Denver ranks first of eight under both methods, roughly three times the largest 
 
 ## Recommendation
 
-The evidence supports a **conditional yes**: the campaign paid back modestly in Denver, but the margin is thin and the estimate depends on modeling choices. Before spending more, run the next market launch with a **randomized holdout** (some stores or regions deliberately left out) to measure the effect cleanly.
+The evidence supports a conditional yes: the campaign paid back modestly in Denver, but the margin is thin and the estimate depends on modeling choices. Before spending more, run the next market launch with a randomized holdout (some stores or regions deliberately left out) to measure the effect cleanly.
 
 ## Limitations
 
