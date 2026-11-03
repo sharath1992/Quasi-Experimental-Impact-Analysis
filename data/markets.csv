@@ -1,0 +1,14 @@
+market,market_name,state,region,role,n_stores_start,approx_miles_from_denver,metro_pop_millions
+DEN,Denver,CO,Front Range,treated,15,0,3.0
+COS,Colorado Springs,CO,Front Range,control,7,70,0.8
+SLC,Salt Lake City,UT,Mountain,control,11,370,1.3
+MCI,Kansas City,MO,Midwest,control,12,560,2.2
+MSP,Minneapolis,MN,Midwest,control,14,700,3.7
+CMH,Columbus,OH,Midwest,control,12,1150,2.2
+IND,Indianapolis,IN,Midwest,control,11,1030,2.1
+BNA,Nashville,TN,South,control,11,1040,2.1
+CLT,Charlotte,NC,South,control,13,1400,2.8
+PDX,Portland,OR,Pacific,control,10,990,2.5
+SMF,Sacramento,CA,Pacific,control,9,1000,2.4
+PHX,Phoenix,AZ,Southwest,control,14,590,5.1
+PIT,Pittsburgh,PA,Northeast,control,10,1300,2.4
